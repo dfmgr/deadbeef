@@ -146,7 +146,7 @@ fi
 # run post install scripts
 run_postinst() {
   dfmgr_run_post
-  replace "replace_home" "$HOME"
+  replace "$APPDIR/config" "replace_home" "$HOME"
 }
 #
 execute "run_postinst" "Running post install scripts"
