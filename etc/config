@@ -12,7 +12,7 @@ artwork.scale_towards_longer 1
 cli_add_playlist_name Default
 close_send_to_tray 1
 deadbeef_version 1.8.4
-filechooser.lastdir file:///home/jason/Music
+filechooser.lastdir file://replace_home/Music
 gtkui.action_separators 0
 gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)","sort_format":"","size":"424","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"360","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"85","align":"0","color_override":"0","color":"#ff000000"},{"title":"Bitrate","id":"-1","format":"%bitrate%","sort_format":"","size":"69","align":"0","color_override":"0","color":"#ffd3dae3"}]
 gtkui.custom_tray_icon deadbeef_tray_icon
