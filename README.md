@@ -5,7 +5,7 @@ DeaDBeeF (as in 0xDEADBEEF) is a modular audio player for GNU/Linux, *BSD, OpenS
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/deadbeef/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/deadbeef/raw/main/install.sh)"
 ```
 
 Manual install:
