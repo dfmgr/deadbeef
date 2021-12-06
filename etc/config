@@ -11,7 +11,7 @@ artwork.missing_artwork 1
 artwork.scale_towards_longer 1
 cli_add_playlist_name Default
 close_send_to_tray 1
-deadbeef_version 1.8.4
+deadbeef_version 1.8.8
 filechooser.lastdir file://replace_home/Music
 gtkui.action_separators 0
 gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)","sort_format":"","size":"424","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"360","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"85","align":"0","color_override":"0","color":"#ff000000"},{"title":"Bitrate","id":"-1","format":"%bitrate%","sort_format":"","size":"69","align":"0","color_override":"0","color":"#ffd3dae3"}]
@@ -29,6 +29,7 @@ gtkui.titlebar_playing_tf %artist% - %title%
 gtkui.titlebar_stopped_tf DeaDBeeF
 gtkui.tray_volume_sensitivity 1
 gtkui.unicode_playstate 0
+gui_plugin GTK3
 hotkey.key01 "Ctrl f" 0 0 find
 hotkey.key02 "Ctrl o" 0 0 open_files
 hotkey.key03 "Ctrl q" 0 0 quit
@@ -80,22 +81,21 @@ output_plugin alsa
 playback.loop 0
 playback.volume -0.714285
 playlist.current 0
-playlist.cursor.0 0
+playlist.cursor.0 -1
 playlist.cursor.1 0
 playlist.scroll.0 0
 playlist.scroll.1 0
 playlist.scroll.cursorfollowplayback 1
-playlist.tab.00000 mp3
-playlist.tab.00001 Default
+playlist.tab.00000 Music
 prefwin.geometry.h 555
 prefwin.geometry.maximized 1
 prefwin.geometry.w 1024
 prefwin.geometry.x 0
 prefwin.geometry.y 17
 resume.paused 0
-resume.playlist 0
-resume.position 138.57557
-resume.track 0
+resume.playlist -1
+resume.position -1.000000
+resume.track -1
 searchwin.geometry.h 150
 searchwin.geometry.w 450
 searchwin.geometry.x 285
