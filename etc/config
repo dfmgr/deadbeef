@@ -1,10 +1,10 @@
 add_folders_follow_symlinks 1
 artwork.cache.period 48
-artwork.enable_albumartorg 0
+artwork.enable_albumartorg 1
 artwork.enable_embedded 1
 artwork.enable_lastfm 0
 artwork.enable_localfolder 1
-artwork.enable_musicbrainz 0
+artwork.enable_musicbrainz 1
 artwork.enable_wos 0
 artwork.filemask *cover*.jpg;*front*.jpg;*folder*.jpg;*cover*.png;*front*.png;*folder*.png
 artwork.missing_artwork 1

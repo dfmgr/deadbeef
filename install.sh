@@ -141,7 +141,7 @@ __run_prepost_install() {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # run after primary post install function
 __run_post_install() {
-  replace "$APPDIR/config" "replace_home" "$HOME"
+  sed_replace "replace_home" "$HOME" "$APPDIR/config"
 
   return ${?:-0}
 }
